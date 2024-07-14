@@ -1,0 +1,12 @@
+---
+
+-  hosts: all
+   tasks:
+    - name: install apache2 package
+      apt:
+        name: apache2
+
+    - name: install curl
+      apt:
+        name: curl
+
