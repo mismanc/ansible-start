@@ -19,3 +19,6 @@
       apt:
         name: curl
 
+    - name: Start apache2 service
+      command: service apache2 start
+
