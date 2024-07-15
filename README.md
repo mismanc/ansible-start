@@ -1,6 +1,6 @@
 # ansible-start
 
-This is an ansible starter project
+This is a simple ansible project
 #### Check inventories accessible
 `ansible all --key-file ~/.ssh/id_ed25519 -i inventory -m ping`
 ##
